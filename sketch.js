@@ -30,10 +30,10 @@ for(i = 0 ; i < BB.length ; i ++){
  BB[i].eat    ();
 }
 }
-
+//////////////////////
 function ball (x,y){
   
-  this.ref = createVector(0,0);
+  
  
   this.pos = createVector(x,y);
   this.v = p5.Vector.random2D(1,1);
