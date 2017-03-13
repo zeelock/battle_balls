@@ -38,7 +38,7 @@ function ball (x,y){
   this.pos = createVector(x,y);
   this.v = p5.Vector.random2D(1,1);
   this.acc = createVector(0,0);
-  this.mass = 50;
+  this.mass = 5;
   
 this.update = function (){
   
