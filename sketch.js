@@ -7,7 +7,7 @@ function setup() {
   
 
  
-for(i = 0 ; i < 1 ; i ++){
+/for(i = 0 ; i < 1 ; i ++){
  BB[i] = new ball(random(width),random(height));
  
 }
@@ -88,8 +88,6 @@ this.end = function (){
 this.eat = function(){
     
    
-line(this.pos.x , 0  , this.pos.x ,this.pos.y);
-line(0 , this.pos.y  , this.pos.x ,this.pos.y);
 
 
 
