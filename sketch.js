@@ -66,7 +66,7 @@ this.end = function (){
     BB.push(new ball(random(width),random(height)));
     }
     
-    if (this.pos.y > height ||this.pos.y+ < 0  ) {
+    if (this.pos.y > height ||this.pos.y < 0  ) {
     
      this.v.y = this.v.y * -1;
        this.mass = this.mass + 1;
