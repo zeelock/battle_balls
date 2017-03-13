@@ -61,14 +61,14 @@ this.show = function(){
   
 this.end = function (){
     
-    if(this.pos.x > width || this.pos.x < 0 ) {
+    if(this.pos.x+this.mass > width || this.pos.x+this.mass < 0 ) {
       
       this.v.x = this.v.x * -1;
        this.mass = this.mass + 1;
     BB.push(new ball(random(width),random(height)));
     }
     
-    if (this.pos.y > height ||this.pos.y < 0  ) {
+    if (this.pos.y+this.mass > height ||this.pos.y+this.mass < 0  ) {
     
      this.v.y = this.v.y * -1;
        this.mass = this.mass + 1;
@@ -88,7 +88,7 @@ this.end = function (){
 this.eat = function(){
     
    
-
+ 
 
 
 
