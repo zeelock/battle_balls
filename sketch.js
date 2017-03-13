@@ -18,7 +18,7 @@ console.log(BB.length);
 
 function draw() {
  background(40);
-  ellipse(50, 50 ,50 );
+ ellipse(50, 50 ,50 );
  
 
 
@@ -38,7 +38,7 @@ function ball (x,y){
   this.pos = createVector(x,y);
   this.v = p5.Vector.random2D(1,1);
   this.acc = createVector(0,0);
-  this.mass = 5;
+  this.mass = 50;
   
 this.update = function (){
   
@@ -53,7 +53,7 @@ this.show = function(){
   
      
     
-   
+                                         // this.mass is how big it is 
     ellipse(this.pos.x , this.pos.y , this.mass );
   
   
