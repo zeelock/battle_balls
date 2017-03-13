@@ -7,7 +7,7 @@ function setup() {
   
 
  
-/for(i = 0 ; i < 1 ; i ++){
+for(i = 0 ; i < 1 ; i ++){
  BB[i] = new ball(random(width),random(height));
  
 }
